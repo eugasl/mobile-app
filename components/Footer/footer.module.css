@@ -1,0 +1,46 @@
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+  background: #fff;
+}
+
+.home {
+  font-size: 14px;
+}
+
+.icon-link-box {
+  position: relative;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-link-box:before {
+  position: absolute;
+  content: "";
+  height: 48px;
+  width: 48px;
+}
+
+.icon-link-box-home:before {
+  background: url("./home.png") no-repeat 50%;
+}
+
+.icon-link-box-orders:before {
+  background: url("./orders.png") no-repeat 50%;
+}
+
+.icon-link-box-money:before {
+  background: url("./money.png") no-repeat 50%;
+}
+
+.icon-link-box-gps:before {
+  background: url("./gps.png") no-repeat 50%;
+}
+
+.icon-link-text {
+  align-self: flex-end;
+}
