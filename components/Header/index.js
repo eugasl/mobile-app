@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 import navbar from "./navbar.module.css";
@@ -12,9 +13,11 @@ const Header = () => (
       variant="light"
     >
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Brand href="/">
-        <img src="/logo.png" />
-      </Navbar.Brand>
+      <Link href="/">
+        <Navbar.Brand href="/">
+          <img src="/logo.png" />
+        </Navbar.Brand>
+      </Link>
       <button
         className={`${navbar["enter-button-mobile"]} ${navbar["enter-button"]}`}
       >
@@ -22,11 +25,17 @@ const Header = () => (
       </button>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav>
-          <Nav.Link href="/info">Информация</Nav.Link>
+          <Link href="/info">
+            <Nav.Link href="/info">Информация</Nav.Link>
+          </Link>
           <NavDropdown title="Профиль" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="/settings">Настройки</NavDropdown.Item>
+            <Link href="/settings">
+              <NavDropdown.Item href="/settings">Настройки</NavDropdown.Item>
+            </Link>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="/exit">Выход</NavDropdown.Item>
+            <Link href="/logout">
+              <NavDropdown.Item href="/logout">Выход</NavDropdown.Item>
+            </Link>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>

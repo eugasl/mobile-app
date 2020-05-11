@@ -2,14 +2,14 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import Layout from "../components/Layout";
 
-const Home = () => (
+const Logout = () => (
   <Layout>
     <Container fluid>
       <Row>
-        <Col>Home Page</Col>
+        <Col>Logout</Col>
       </Row>
     </Container>
   </Layout>
 );
 
-export default Home;
+export default Logout;

@@ -1,0 +1,16 @@
+.phone {
+  margin: 20px 0;
+  position: relative;
+}
+
+.phone:before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 36px;
+  height: 36px;
+  left: -50px;
+  top: -5px;
+  background: url("./phone.png") no-repeat;
+  background-size: 36px;
+}

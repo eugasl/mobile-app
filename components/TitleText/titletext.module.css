@@ -1,0 +1,22 @@
+.title {
+    margin: 25px 0 0;
+    font-weight: 600;
+  }
+  
+  .title:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 36px;
+    height: 36px;
+    left: -40px;
+    top: 20px;
+    background: url("./money.png") no-repeat;
+    background-size: 36px;
+  }
+
+.text {
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+  

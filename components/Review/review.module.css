@@ -1,0 +1,35 @@
+.review {
+  padding: 20px 0;
+  background: #faf9fb;
+}
+
+.title {
+  text-align: center;
+  color: #7c0079;
+  font-weight: 600;
+}
+
+.text {
+  background: #fff;
+  margin: 0 50px;
+  padding: 20px;
+  font-size: 12px;
+}
+
+.author {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.avatar {
+  display: inline-block;
+  border-radius: 50%;
+  width: 100px;
+}
+
+.name {
+  margin-top: 10px;
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+}
