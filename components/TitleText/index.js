@@ -1,9 +1,13 @@
-import styles from './titletext.module.css';
+import classnames from "classnames";
 
-const TitleText = ({ title, children }) => (
+import styles from "./titletext.module.css";
+
+const TitleText = ({ title, children, center }) => (
   <>
-    <div className={styles.title}>{title}</div>
-    <p className={styles.text}>{children}</p>
+    {title && <div className={styles.title}>{title}</div>}
+    <p className={classnames(styles.text, { [styles.textCenter]: center })}>
+      {children}
+    </p>
   </>
 );
 

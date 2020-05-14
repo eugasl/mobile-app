@@ -34,3 +34,21 @@ body::-webkit-scrollbar {
 body {
   -ms-overflow-style: none;
 }
+
+.gap-bottom {
+  margin-bottom: 40px;
+}
+
+.gap-top {
+  margin-top: 40px;
+}
+
+.center {
+  text-align: center;
+}
+
+.small-image {
+  width: 60px;
+  height: 60px;
+}
+

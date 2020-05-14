@@ -1,19 +1,17 @@
 .review {
-  padding: 20px 0;
-  background: #faf9fb;
+  margin: 90px 0;
 }
 
 .title {
   text-align: center;
-  color: #7c0079;
+  font-size: 30px;
   font-weight: 600;
 }
 
 .text {
   background: #fff;
-  margin: 0 50px;
-  padding: 20px;
-  font-size: 12px;
+  font-size: 18px;
+  text-align: center;
 }
 
 .author {
@@ -28,8 +26,12 @@
 }
 
 .name {
-  margin-top: 10px;
+  margin: 14px 0 0 0;
   display: block;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
+}
+
+.about {
+  font-size: 12px;
 }
