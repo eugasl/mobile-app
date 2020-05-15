@@ -7,8 +7,8 @@ const Advantages = () => (
   <div className={styles.advantages}>
     <Container>
       <Row>
-        <Col xs={1} sm={1} />
-        <Col xs={10} sm={12}>
+        <Col xs={1} sm={3} />
+        <Col xs={10} sm={6}>
           <p className={styles.title}>
             Няня с почасовой
             <br />
@@ -42,7 +42,7 @@ const Advantages = () => (
             </p>
           </div>
         </Col>
-        <Col xs={1} sm={1} />
+        <Col xs={1} sm={3} />
       </Row>
     </Container>
   </div>

@@ -1,5 +1,25 @@
 .titleHint {
-    font-size: 12px;
-    color: #9a9a9a;
-    text-align: center;
+  font-size: 12px;
+  color: #9a9a9a;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .titleHint {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .titleHint {
+    font-size: 13px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .titleHint {
+    font-size: 16px;
+    text-align: left;
+  }
 }

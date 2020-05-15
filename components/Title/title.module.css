@@ -4,6 +4,11 @@
   font-weight: 700;
 }
 
+@media (min-width: 1200px) {
+  .title {
+    margin-top: 0;
+  }
+}
 
 .titleSmallSize {
   font-size: 18px;
@@ -18,7 +23,36 @@
   line-height: 40px;
 }
 
-
 .titleCenter {
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .titleCenter {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .titleMediumSize {
+    font-size: 29px;
+  }
+}
+
+@media (min-width: 992px) {
+  .titleCenter {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .titleCenter {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .titleMediumSize {
+    font-size: 35px;
+  }
 }
