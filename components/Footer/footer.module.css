@@ -6,7 +6,8 @@
   z-index: 1030;
   background-color: #fff;
   border-top: 4px solid #faf9fb;  
-  height: 85px;
+  height: 105px;
+  padding: 10px 0;  
 }
 
 .home {

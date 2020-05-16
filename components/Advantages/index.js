@@ -7,17 +7,18 @@ const Advantages = () => (
   <div className={styles.advantages}>
     <Container>
       <Row>
-        <Col xs={1} sm={3} />
-        <Col xs={10} sm={6}>
-          <p className={styles.title}>
-            Няня с почасовой
-            <br />
-            оплатой
-          </p>
-          <p className="center">
+        <Col md={2} />
+        <Col md={8}>
+          <p className={styles.title}>Няня с почасовой оплатой</p>
+          <p className={`${styles.titleHint} center`}>
             Заберет ребенка из садика, отведет на занятия, погуляет, приготовит
             еду, уберет комнату
           </p>
+        </Col>
+        <Col md={2} />
+      </Row>
+      <Row>
+        <Col md={4}>
           <div className={styles.text}>
             <Image src="/pic5.svg" className="small-image" />
             <Title text="Видеорезюме исполнителей" size="small" />
@@ -25,6 +26,8 @@ const Advantages = () => (
               Для большинства кандидатов достпуно видеорезюме несколько минут.
             </p>
           </div>
+        </Col>
+        <Col md={4}>
           <div className={styles.text}>
             <Image src="/pic6.svg" className="small-image" />
             <Title text="Ежедневные или еженедельные отчеты" size="small" />
@@ -33,6 +36,8 @@ const Advantages = () => (
               по возникшим сложностям.
             </p>
           </div>
+        </Col>
+        <Col md={4}>
           <div className={styles.text}>
             <Image src="/pic7.svg" className="small-image" />
             <Title text="Экономия при длительных заказах" size="small" />
@@ -42,7 +47,6 @@ const Advantages = () => (
             </p>
           </div>
         </Col>
-        <Col xs={1} sm={3} />
       </Row>
     </Container>
   </div>

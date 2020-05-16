@@ -23,106 +23,97 @@ const Home = () => (
               size="medium"
             />
             <TitleHint text="Проводим личное собеседование, проверяем благонадёжность и отзывы, верифицируем паспортные&nbsp;данные нянь" />
-            <Callback />
+            <Callback inContent />
           </Col>
           <Col md={6}>
-            <Image src="/pic1.svg" className="gap-bottom" />
+            <Image src="/pic1.svg" />
           </Col>
         </Row>
       </div>
-
+      <div className="section-2">
+        <Row>
+          <Col md={6}>
+            <Image src="/pic2.svg" />
+          </Col>
+          <Col md={6}>
+            <Title text="Контролируйте ежедневные задания" size="large" />
+            <p>
+              Используйте календарь заданий и геолокацию для ежедневного
+              удаленного контроля за работой няни в мобильном приложении.
+              Настройте регулярные задачи и с легкостью кносите важные
+              изменения.
+            </p>
+          </Col>
+        </Row>
+      </div>
+      <div className="section-3">
+        <Row>
+          <Col md={6}>
+            <Image src="/pic3.svg" />
+          </Col>
+          <Col md={6}>
+            <Title
+              text="Платите только за отработанные&nbsp;часы"
+              size="large"
+            />
+            <p>
+              Платформа учитывает сколько часов в день проработала няня и
+              анализирует, какие задачи были выполнены. Оплата производится с
+              банковской карты с уплатой налогов. Можно настроить еженедельную
+              оплату в автоматическом режиме или управлять выплатами вручную.
+            </p>
+          </Col>
+        </Row>
+      </div>
+      <div className="section-4">
+        <Row>
+          <Col md={6}>
+            <Image src="/pic4.svg" />
+          </Col>
+          <Col md={6}>
+            <Title text="Удобные коммуникации с няней" size="large" />
+            <p>
+              Встроенный чат и система уведомлений позволит корректировать
+              задания и получать необходимые отчеты.
+            </p>
+          </Col>
+        </Row>
+      </div>
       <Row>
-        <Col xs={1} sm={1} md={3} lg={3} />
-        <Col xs={10} sm={10} md={6} lg={6}>
-          <Image src="/pic2.svg" />
-        </Col>
-        <Col xs={1} sm={1} md={3} lg={3} />
-      </Row>
-      <Row>
-        <Col xs={1} sm={3} />
-        <Col xs={10} sm={6}>
-          <Title text="Контролируйте ежедневные задания" size="large" />
-          <p className="gap-bottom">
-            Используйте календарь заданий и геолокацию для ежедневного
-            удаленного контроля за работой няни в мобильном приложении.
-            Настройте регулярные задачи и с легкостью кносите важные изменения.
-          </p>
-        </Col>
-        <Col xs={1} sm={3} />
-      </Row>
-      <Row>
-        <Col xs={1} sm={3} />
-        <Col xs={10} sm={6}>
-          <Image src="/pic3.svg" className="gap-top" />
-        </Col>
-        <Col xs={1} sm={3} />
-      </Row>
-      <Row>
-        <Col xs={1} sm={3} />
-        <Col xs={10} sm={6}>
-          <Title text="Платите только за отработанные&nbsp;часы" size="large" />
-          <p className="gap-bottom">
-            Платформа учитывает сколько часов в день проработала няня и
-            анализирует, какие задачи были выполнены. Оплата производится с
-            банковской карты с уплатой налогов. Можно настроить еженедельную
-            оплату в автоматическом режиме или управлять выплатами вручную.
-          </p>
-        </Col>
-        <Col xs={1} sm={3} />
-      </Row>
-      <Row>
-        <Col xs={1} sm={3} />
-        <Col xs={10} sm={6}>
-          <Image src="/pic4.svg" className="gap-top" />
-        </Col>
-        <Col xs={1} sm={3} />
-      </Row>
-      <Row>
-        <Col xs={1} sm={3} />
-        <Col xs={10} sm={6}>
-          <Title text="Удобные коммуникации с няней" size="large" />
-          <p className="gap-bottom">
-            Встроенный чат и система уведомлений позволит корректировать задания
-            и получать необходимые отчеты.
-          </p>
-        </Col>
-        <Col xs={1} sm={3} />
-      </Row>
-      <Row>
-        <Col xs={1} sm={3} />
-        <Col xs={10} sm={6}>
+        <Col md={2} />
+        <Col md={8}>
           <Title
             text="Рассчитайте цену няни за час работы"
             center
-            size="medium"
+            size="large"
           />
         </Col>
-        <Col xs={1} sm={3} />
+        <Col md={2} />
       </Row>
       <Row>
-        <Col xs={1} sm={3} />
-        <Col xs={10} sm={6}>
+        <Col md={2} />
+        <Col md={8}>
           <Calculator />
         </Col>
-        <Col xs={1} sm={3} />
+        <Col md={2} />
       </Row>
     </Container>
     <Advantages />
     <Container>
       <Row>
-        <Col xs={1} sm={3} />
-        <Col xs={10} sm={6}>
+        <Col md={2} />
+        <Col md={8}>
           <Review />
         </Col>
-        <Col xs={1} sm={3} />
+        <Col md={2} />
       </Row>
       <Row>
-        <Col xs={1} sm={3} />
-        <Col xs={10} sm={6}>
+        <Col md={2} />
+        <Col md={8}>
           <Title text="Как мы отбираем кандидатов" size="large" center />
           <OrderedList />
         </Col>
-        <Col xs={1} sm={3} />
+        <Col md={2} />
       </Row>
     </Container>
     <TryIt />

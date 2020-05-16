@@ -1,9 +1,5 @@
 .callback {
-    margin-bottom: 40px;;
-}
-
-.label {
-  font-size: 12px;
+    margin-bottom: 40px;
 }
 
 .button {
@@ -20,5 +16,28 @@
   border-radius: 0.25rem;
   color: #ffffff;
   border-color: #7c0079;
-
 }
+
+.callbackLabel {
+  display: block;
+  font-size: 12px;
+}
+
+.callbackInput {
+  width: 170px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.callbackForm {
+  margin: 0 auto;
+  width: 300px;
+}
+
+
+@media (min-width: 768px) {
+  .callbackFormContent {
+    margin: 0;
+  }
+}
+

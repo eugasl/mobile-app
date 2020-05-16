@@ -10,11 +10,11 @@ const Footer = () => (
     <div className={styles.footer}>
       <Container fluid>
         <Row>
-          <Col xs={1} sm={3} />
-          <Col xs={10} sm={6}>
-            <Callback />
+          <Col md={2} />
+          <Col md={8}>
+            <Callback/>
           </Col>
-          <Col xs={1} sm={3} />
+          <Col md={2} />
         </Row>
       </Container>
     </div>
