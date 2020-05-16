@@ -2,6 +2,10 @@
   margin: 90px 0;
 }
 
+.reviewInner {
+  margin-bottom: 90px;
+}
+
 .title {
   text-align: center;
   font-size: 30px;
@@ -12,6 +16,7 @@
   background: #fff;
   font-size: 18px;
   text-align: center;
+  min-height: 400px;
 }
 
 .author {
@@ -34,4 +39,8 @@
 
 .about {
   font-size: 12px;
+}
+
+.black {
+  color: #000;
 }
